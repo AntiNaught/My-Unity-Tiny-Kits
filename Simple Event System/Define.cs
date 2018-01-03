@@ -1,9 +1,12 @@
-﻿public interface IWorker
+﻿namespace Anty
 {
-    void Work();
-}
+        public interface IWorker
+        {
+                void Work();
+        }
 
-public interface IEventHandler
-{
-    void OnEventExecute(string type, object data);
+        public interface IEventHandler
+        {
+                void OnEventExecute(string type, object data);
+        }
 }
