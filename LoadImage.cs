@@ -14,7 +14,7 @@ namespace Anty
                                 Sprite sprite = Sprite.Create(LoadTexture2D(path), new Rect(0, 0, width, height), Vector2.zero);
                                 return sprite;
                         }
-                        Debug.Log("Texture2D LOAD FAILE  ==> Path  " + path);
+                        Debug.Log("SPRITE  LOAD FAILE  ==> Path  " + path);
                         return null;
                 }
 
@@ -31,7 +31,7 @@ namespace Anty
                                 fs.Close();
                                 return texture;
                         }
-                        Debug.Log("Texture2D LOAD FAILE  ==> Path  " + path);
+                        Debug.Log("TEXTURE2D  LOAD FAILE  ==> Path  " + path);
                         return null;
                 }
 
