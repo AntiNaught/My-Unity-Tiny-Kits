@@ -14,6 +14,5 @@ namespace Anty
                 //TODO log to file
 #endif
                 }
-
         }
 }
