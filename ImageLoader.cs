@@ -19,7 +19,7 @@ public class ImageLoader : MonoBehaviour
         Sprite res = Resources.Load<Sprite>(path);
         spritesLoaded.Add(path,res);
         if (res == null)
-            Demo_0.MyLogger.LogToFile("LackImage", path);
+            Demo_0.ALogger.LogToFile("LackImage", path);
 
         return res;
     }
