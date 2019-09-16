@@ -1,4 +1,4 @@
-﻿Shader "Mask Progress"
+﻿Shader "Anty Tool Kit/Mask Progress"
 {
 	Properties
 	{
